@@ -163,6 +163,7 @@ export class StackController {
 function destroyView(view: RouteView) {
   if (view) {
     // TODO lifecycle event id:0 +bug +fix
+// - <https://github.com/imdone/ionic/issues/2>
     view.ref.destroy();
   }
 }
