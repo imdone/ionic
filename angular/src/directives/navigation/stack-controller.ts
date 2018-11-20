@@ -162,7 +162,7 @@ export class StackController {
 
 function destroyView(view: RouteView) {
   if (view) {
-    // TODO lifecycle event id:0
+    // TODO lifecycle event id:0 +bug +fix
     view.ref.destroy();
   }
 }
