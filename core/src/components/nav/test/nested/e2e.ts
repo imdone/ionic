@@ -2,7 +2,7 @@ import { newE2EPage } from '@stencil/core/testing';
 
 const navChanged = () => new Promise(resolve => window.addEventListener('ionNavDidChange', resolve));
 
-// TODO: get this to pass
+// TODO: get this to pass id:40
 test.skip('nav: nested', async () => {
 
   const page = await newE2EPage({

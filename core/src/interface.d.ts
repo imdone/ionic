@@ -24,7 +24,7 @@ export * from './components/tab-bar/tab-bar-interface';
 export * from './components/toast/toast-interface';
 export * from './components/virtual-scroll/virtual-scroll-interface';
 
-// TODO: review how this types are exported
+// TODO: review how this types are exported id:29
 // Other types
 export * from './components/nav/view-controller';
 

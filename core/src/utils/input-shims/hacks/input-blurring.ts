@@ -41,7 +41,7 @@ export function enableInputBlurring(doc: Document) {
     }
 
     focused = false;
-    // TODO: find a better way, why 50ms?
+    // TODO: find a better way, why 50ms? id:23
     setTimeout(() => {
       if (!focused) {
         active.blur();

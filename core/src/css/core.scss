@@ -18,7 +18,7 @@ body.backdrop-no-scroll {
   overflow: hidden;
 }
 
-// TODO: Block scrolling in ion-content, breaks inside ion-modal
+// TODO: Block scrolling in ion-content, breaks inside ion-modal id:14
 // body.backdrop-no-scroll .ion-page > ion-content {
 //   --overflow: hidden;
 // }
@@ -105,7 +105,7 @@ html.plt-ios.plt-hybrid, html.plt-ios.plt-pwa {
   }
 }
 
-// TODO: remove once Safari 11.2 dies
+// TODO: remove once Safari 11.2 dies id:41
 @supports (padding-top: constant(safe-area-inset-top)) {
   html {
     --ion-safe-area-top: constant(safe-area-inset-top);

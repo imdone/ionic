@@ -45,7 +45,7 @@ export interface HTMLIonOverlayElement extends HTMLStencilElement {
 
 export type OverlaySelect = HTMLIonActionSheetElement | HTMLIonAlertElement | HTMLIonPopoverElement;
 
-// TODO: uncomment when TS 3.0 issues are fixed
+// TODO: uncomment when TS 3.0 issues are fixed id:15
 // Overlay checks
 /*
 export type Conforms<T extends Required<B>, B> = T;

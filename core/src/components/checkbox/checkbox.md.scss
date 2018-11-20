@@ -36,7 +36,7 @@
 // Material Design Checkbox: Disabled
 // -----------------------------------------
 
-// TODO
+// TODO  id:2
 // .item-md.item-checkbox-disabled ion-label {
 
 :host(.checkbox-disabled) {
@@ -79,7 +79,7 @@
   @include margin($checkbox-md-item-start-margin-top, $checkbox-md-item-start-margin-end, $checkbox-md-item-start-margin-bottom, $checkbox-md-item-start-margin-start);
 }
 
-// REVIEW
+// REVIEW  id:5
 // .checkbox-md + .item-inner ion-label {
 //   @include margin-horizontal(0, null);
 // }

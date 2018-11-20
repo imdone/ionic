@@ -50,7 +50,7 @@
   color: current-color(contrast);
 }
 
-// TODO we should remove outer-content in favor of a color
+// TODO we should remove outer-content in favor of a color id:18
 :host(.outer-content) {
   --background: #{$background-color-step-50};
 }

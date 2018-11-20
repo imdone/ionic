@@ -5049,7 +5049,7 @@ export namespace Components {
     */
     'markDirtyTail': () => void;
     /**
-    * NOTE: only Vanilla JS API.
+    * NOTE: only Vanilla JS API. id:3
     */
     'nodeRender'?: ItemRenderFn;
     /**
@@ -5057,15 +5057,15 @@ export namespace Components {
     */
     'positionForItem': (index: number) => Promise<number>;
     /**
-    * NOTE: only JSX API for stencil.  Provide a render function for the footer to be rendered. Returns a JSX virtual-dom.
+    * NOTE: only JSX API for stencil. Provide a render function for the footer to be rendered. Returns a JSX virtual-dom. id:16
     */
     'renderFooter'?: (item: any, index: number) => any;
     /**
-    * NOTE: only JSX API for stencil.  Provide a render function for the header to be rendered. Returns a JSX virtual-dom.
+    * NOTE: only JSX API for stencil. Provide a render function for the header to be rendered. Returns a JSX virtual-dom. id:8
     */
     'renderHeader'?: (item: any, index: number) => any;
     /**
-    * NOTE: only JSX API for stencil.  Provide a render function for the items to be rendered. Returns a JSX virtual-dom.
+    * NOTE: only JSX API for stencil. Provide a render function for the items to be rendered. Returns a JSX virtual-dom. id:35
     */
     'renderItem'?: (item: any, index: number) => any;
   }
@@ -5100,19 +5100,19 @@ export namespace Components {
     */
     'items'?: any[];
     /**
-    * NOTE: only Vanilla JS API.
+    * NOTE: only Vanilla JS API. id:1
     */
     'nodeRender'?: ItemRenderFn;
     /**
-    * NOTE: only JSX API for stencil.  Provide a render function for the footer to be rendered. Returns a JSX virtual-dom.
+    * NOTE: only JSX API for stencil. Provide a render function for the footer to be rendered. Returns a JSX virtual-dom. id:4
     */
     'renderFooter'?: (item: any, index: number) => any;
     /**
-    * NOTE: only JSX API for stencil.  Provide a render function for the header to be rendered. Returns a JSX virtual-dom.
+    * NOTE: only JSX API for stencil. Provide a render function for the header to be rendered. Returns a JSX virtual-dom. id:17
     */
     'renderHeader'?: (item: any, index: number) => any;
     /**
-    * NOTE: only JSX API for stencil.  Provide a render function for the items to be rendered. Returns a JSX virtual-dom.
+    * NOTE: only JSX API for stencil. Provide a render function for the items to be rendered. Returns a JSX virtual-dom. id:9
     */
     'renderItem'?: (item: any, index: number) => any;
   }
