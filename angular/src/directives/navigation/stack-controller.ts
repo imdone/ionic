@@ -162,7 +162,7 @@ export class StackController {
 
 function destroyView(view: RouteView) {
   if (view) {
-    // TODO lifecycle event id:0 +bug +fix +need-help
+    // TODO lifecycle event id:0 +bug +fix +need-help @github
     // - <https://github.com/imdone/ionic/issues/2>
     view.ref.destroy();
   }
