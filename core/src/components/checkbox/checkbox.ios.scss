@@ -23,6 +23,7 @@
 // -----------------------------------------
 
 // TODO: .item-ios.item-checkbox-disabled ion-label id:36 +enhancement +bug
+// - <https://github.com/imdone/ionic/issues/3>
 :host(.checkbox-disabled) {
   opacity: $checkbox-ios-disabled-opacity;
 }
